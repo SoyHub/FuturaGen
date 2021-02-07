@@ -84,7 +84,7 @@ li {
     list-style: none;
 }
 
-.fancy-table {
+.gen-table {
     display: table;
     height: 100%;
     left: 0;
@@ -94,7 +94,7 @@ li {
     z-index: 2;
 }
 
-.fancy-table-cell {
+.gen-table-cell {
     display: table-cell;
     vertical-align: middle;
 }
@@ -287,7 +287,7 @@ li {
     background-color: #f7f7f7;
 }
 
-.fancy-bg-dark {
+.gen-bg-dark {
     background-color: #131627!important;
 }
 
@@ -312,7 +312,7 @@ li {
     left: 0;
 }
 
-.fancy-btn {
+.gen-btn {
     color: #fff;
     font-size: 13px;
     font-weight: 600;
@@ -335,7 +335,7 @@ li {
     z-index: 1;
 }
 
-.fancy-btn:after {
+.gen-btn:after {
     color: #fff;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
@@ -355,18 +355,18 @@ li {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
 }
 
-.fancy-btn:hover:after,
-.fancy-btn.fancy-active:after {
+.gen-btn:hover:after,
+.gen-btn.gen-active:after {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
 }
 
-.fancy-btn.fancy-dark {
+.gen-btn.gen-dark {
     color: #232d37;
 }
 
-.fancy-btn:hover,
-.fancy-btn.fancy-dark:hover {
+.gen-btn:hover,
+.gen-btn.gen-dark:hover {
     color: #fff;
 }
 
@@ -421,20 +421,20 @@ li {
     font-weight: 500;
 }
 
-.fancy-search-and-shop-area {
+.gen-search-and-shop-area {
     margin-left: 65px;
 }
 
-.fancy-search-and-shop-area > a {
+.gen-search-and-shop-area > a {
     font-size: 16px;
     color: #fff;
 }
 
-.fancy-search-and-shop-area > a:first-child {
+.gen-search-and-shop-area > a:first-child {
     margin-right: 30px;
 }
 
-.fancy-search-form {
+.gen-search-form {
     width: 100%;
     background-color: #fff;
     height: 100px;
@@ -447,12 +447,12 @@ li {
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
-.search-form-on .fancy-search-form {
+.search-form-on .gen-search-form {
     top: 0;
     z-index: 2000;
 }
 
-.fancy-search-form form input {
+.gen-search-form form input {
     width: 100%;
     font-size: 36px;
     color: #b5aec4;
@@ -475,7 +475,7 @@ li {
 
 /* hero area css */
 
-.fancy-hero-area {
+.gen-hero-area {
     position: relative;
     z-index: 10;
     width: 100%;
@@ -514,7 +514,7 @@ li {
     color: #2bc0a4;
 }
 
-.fancy-hero-content h2 {
+.gen-hero-content h2 {
     font-size: 48px;
     color: #fff;
     font-weight: 700;
@@ -552,12 +552,12 @@ li {
 
 /* Top Features Area CSS */
 
-.fancy-top-features-area {
+.gen-top-features-area {
     position: relative;
     z-index: 99;
 }
 
-.fancy-top-features-content {
+.gen-top-features-content {
     position: absolute;
     width: 100%;
     z-index: 99;
@@ -586,7 +586,7 @@ li {
     background-color: #e5e5e5;
 }
 
-.fancy-top-features-content .col-12:last-child .single-top-feature:after {
+.gen-top-features-content .col-12:last-child .single-top-feature:after {
     display: none;
 }
 
@@ -600,7 +600,7 @@ li {
 
 /* About Us Area CSS */
 
-.fancy-about-us-area {
+.gen-about-us-area {
     padding-top: 200px;
     padding-bottom: 100px;
 }
@@ -624,7 +624,7 @@ li {
 
 /* Skills Area CSS */
 
-.fancy-skills-area {
+.gen-skills-area {
     position: relative;
     z-index: 2;
 }
@@ -986,7 +986,7 @@ li {
 
 /* Breadcumb Area CSS */
 
-.fancy-breadcumb-area {
+.gen-breadcumb-area {
     width: 100%;
     height: 400px;
     position: relative;
@@ -1127,7 +1127,7 @@ li {
     font-size: 16px;
 }
 
-.fancy-blockquote {
+.gen-blockquote {
     width: 100%;
     margin-bottom: 30px;
     position: relative;
@@ -1135,7 +1135,7 @@ li {
     padding-left: 70px;
 }
 
-.fancy-blockquote span.quote {
+.gen-blockquote span.quote {
     font-size: 100px;
     position: absolute;
     line-height: 1;
@@ -1144,17 +1144,17 @@ li {
     color: #2bc0a4
 }
 
-.fancy-blockquote h5 {
+.gen-blockquote h5 {
     line-height: 1.5;
     font-size: 18px;
     font-weight: 400;
 }
 
-.fancy-blockquote h6 {
+.gen-blockquote h6 {
     font-weight: 400;
 }
 
-.fancy-blockquote h6 span {
+.gen-blockquote h6 span {
     color: #b5aec4;
     font-size: 14px;
 }
